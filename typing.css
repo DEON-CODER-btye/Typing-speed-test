@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.green {
+  text-decoration: underline;
+  text-decoration-color: #50ff00bf;
+  color: #51ff0088;
+}
+
+.red {
+  text-decoration: underline;
+  text-decoration-color: lightcoral;
+  color: lightcoral;
+}
+
+.add-border {
+  outline-color: rgb(150, 150, 7);
+}
+
+.inputClass {
+  color: #9fa1a4;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+@media (max-width: 755px) {
+
+  .char {
+    font-size: 25px;
+  }
+
+
+}

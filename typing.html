@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="output.css" />
+  <link rel="stylesheet" href="typing.css" />
+  <script src="typing.js" defer></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body class="m-4 bg-[#323437] text-white font-['Poppins']">
+  <div id="main-container">
+    <div id="nav" class="flex justify-between ml-[0px] mr-[0px] md:ml-10 mr-10">
+      <h1 class="text-[16px] text-[#AAD614D1] md:text-2xl">
+        Typing Speed Test
+      </h1>
+      <h2 id="bestSpeed" class="flex items-center gap-1.5 text-[16px] text-[#AAD614D1] md:text-2xl">
+        <i class="fa-solid fa-trophy text-amber-300"></i> Personal best: 0 WPM
+      </h2>
+    </div>
+    <h6 class="text-gray-400 text-[15px] pl-6 hidden md:block">
+      Type as fast as you can in 60 seconds
+    </h6>
+    <div id="middle-container" class="flex gap-3 text-[18px] mt-12 justify-center flex-wrap ml-[20px] md:text-2xl ml-0">
+      <span class="text-gray-400">WPM: <span id="WPM" class="text-[#cda717]">0</span></span>
+      <div></div>
+      <span class="text-gray-400">Accuracy: <span id="accuracy" class="text-[#cda717]">0%</span></span>
+      <div></div>
+      <span class="text-gray-400">Time:
+        <span id="timer" class="text-yellow-300 font-bold">1:00</span></span>
+      <div class="pl-10"></div>
+      <span class="text text-[#CDA717]">Difficulty:</span>
+      <span class="levels flex gap-5 cursor-pointer text-[#50ff00bf] mx-auto ml-17 md:mx-0 ml-0">
+        <span id="level1" class="outline-1 outline-white-400 p-2 rounded-[7px]">Easy</span>
+        <span id="level2" class="outline-1 outline-white-400 p-2 rounded-[7px]">Medium</span>
+        <span id="level3" class="outline-1 outline-white-400 p-2 rounded-[7px]">Hard</span>
+      </span>
+      <div></div>
+      <span id="mode" class="flex items-center text-[#E1B617]">Mode:</span>
+      <button id="changerTimer" class="outline-1 outline-blue-400 p-1 rounded-[7px] cursor-pointer text-orange-400">
+        Time(60s)
+      </button>
+      <span id="Passage"
+        class="outline-1 outline-white-400 p-1 rounded-[7px] text-right cursor-pointer flex items-center text-[#50ff00bf]">Passage</span>
+    </div>
+    <hr class="text-gray-500 w-full max-w-[1200px] mx-auto mt-10" />
+    <p id="paragraph"
+      class="wrap-break-word whitespace-normal text-[#9fa1a4] text-3xl leading-15 text-center mt-12 w-full max-w-[1700px] mx-auto flex-wrap">
+    </p>
+    <textarea id="input" placeholder="Type the above text here..."
+      class="w-full bg-gray-1000 text-white border-2 border-gray-500 mt-4 max-w-[1750px] mx-auto flex pl-4 pt-4 text-[18px] h-full min-h-[310px] rounded-[8px] leading-12 outline-[#574106] md:text-3xl"></textarea>
+  </div>
+</body>
+
+</html>

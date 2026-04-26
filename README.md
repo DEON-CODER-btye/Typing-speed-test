@@ -1,3 +1,5 @@
+#Live Demo - https://fascinating-stroopwafel-b2ed62.netlify.app/ 
+
 Typing Test App
 
 Features:
@@ -12,6 +14,3 @@ Built with:
 HTML
 CSS / Tailwind
 JavaScript
-
-#Live Demo 
-coming Soon
